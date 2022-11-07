@@ -1,7 +1,54 @@
-body{
-    background-color: rgb(223, 211, 215);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+
+body {
+    background: linear-gradient(45deg, #9a9ac7, #df1b8d, #080808);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
+main.container {
+    background: rgb(167, 160, 160);
+    max-width: 350vh;
+    min-height: 40vh;
+    padding: 2rem;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 36px;
+    color:  rgb(36, 17, 28);
+    font-weight: 1000;
+    height: 80px;}
+
+h1,h4{
+    text-align: center;
+}
+
+
+
+
+
+main{
+    max-width: 800px;
+    margin: 5vh auto;
+    padding: 20px;
+}
+
+
+
+
+
 
 
 

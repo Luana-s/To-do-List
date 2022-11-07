@@ -8,15 +8,25 @@
     <title>Lista de tarefas</title>
 </head>
 <body>
+    <main class="container">
+        <section >
+            <img src="https://img.lovepik.com/free-png/20211211/lovepik-a-pink-cat-question-mark-with-a-confused-face-png-image_401498506_wh1200.png" heigth="10px" width="50px">
+           
+            <h1 class="titulo">Lista de tarefas  </h1>
+            <img src="https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png"heigth="500px" width="500px">
     
-        <h1>Lista de tarefas</h1>
-        <input type="text" id="nome-tarefa"/>
-        <button onclick="adicionarTarefa()">
-            Criar tarefa
-    </button>
+          <h4><u>Minhas tarefas! </u> &#x1F60E;</h4>
+            
+           <input type="text" id="nome-tarefa"/>
+            <button class="botao"  onclick="adicionarTarefa()">
+                Criar tarefa
+        </button>
+    
+        <div class="lista" id="lista-tarefas"> </div>
+    </section>
 
-    <div id="lista-tarefas"> </div>
 
+    
     <script src="./index.js"></script>
 </body>
 </html>
